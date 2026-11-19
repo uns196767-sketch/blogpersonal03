@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1b2a4a"/>
+      <stop offset=".55" stop-color="#c8553d"/>
+      <stop offset="1" stop-color="#f2a65a"/>
+    </linearGradient>
+    <linearGradient id="bld" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#efe6d6"/>
+      <stop offset="1" stop-color="#cbbfa8"/>
+    </linearGradient>
+    <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2b3a2f"/>
+      <stop offset="1" stop-color="#141c18"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="700" fill="url(#sky)"/>
+  <circle cx="1220" cy="430" r="90" fill="#ffd18a" opacity=".85"/>
+  <!-- cerros -->
+  <path d="M0 470 L180 360 L330 430 L520 330 L700 440 L900 380 L1100 450 L1300 360 L1600 460 L1600 700 L0 700Z" fill="#6b3a3a" opacity=".55"/>
+  <path d="M0 510 L240 430 L460 500 L760 420 L1040 500 L1340 430 L1600 500 L1600 700 L0 700Z" fill="#3d2b38" opacity=".7"/>
+  <!-- edificio principal -->
+  <g>
+    <rect x="430" y="330" width="740" height="230" fill="url(#bld)"/>
+    <rect x="430" y="318" width="740" height="16" fill="#8c2f2f"/>
+    <rect x="700" y="270" width="200" height="290" fill="#f5eee2"/>
+    <rect x="690" y="258" width="220" height="16" fill="#8c2f2f"/>
+    <g fill="#24324f" opacity=".85">
+      <rect x="460" y="360" width="50" height="60"/><rect x="530" y="360" width="50" height="60"/><rect x="600" y="360" width="50" height="60"/>
+      <rect x="460" y="450" width="50" height="60"/><rect x="530" y="450" width="50" height="60"/><rect x="600" y="450" width="50" height="60"/>
+      <rect x="950" y="360" width="50" height="60"/><rect x="1020" y="360" width="50" height="60"/><rect x="1090" y="360" width="50" height="60"/>
+      <rect x="950" y="450" width="50" height="60"/><rect x="1020" y="450" width="50" height="60"/><rect x="1090" y="450" width="50" height="60"/>
+      <rect x="730" y="300" width="140" height="40"/>
+    </g>
+    <rect x="755" y="430" width="90" height="130" fill="#1b2a4a"/>
+    <g fill="#f5eee2"><rect x="720" y="380" width="12" height="180"/><rect x="868" y="380" width="12" height="180"/></g>
+  </g>
+  <!-- palmeras -->
+  <g fill="#14201a">
+    <rect x="300" y="380" width="10" height="190"/><path d="M305 380 q-70 -20 -110 20 q60 -10 110 -10Z M305 380 q70 -30 120 10 q-60 -5 -120 0Z M305 380 q-20 -60 -70 -70 q40 30 70 70Z M305 380 q30 -60 80 -60 q-50 20 -80 60Z"/>
+    <rect x="1290" y="390" width="10" height="180"/><path d="M1295 390 q-70 -20 -110 20 q60 -10 110 -10Z M1295 390 q70 -30 120 10 q-60 -5 -120 0Z M1295 390 q-20 -60 -70 -70 q40 30 70 70Z M1295 390 q30 -60 80 -60 q-50 20 -80 60Z"/>
+  </g>
+  <rect y="560" width="1600" height="140" fill="url(#ground)"/>
+  <g stroke="#e9dcc4" stroke-width="3" opacity=".35"><line x1="0" y1="600" x2="1600" y2="600"/></g>
+</svg>
